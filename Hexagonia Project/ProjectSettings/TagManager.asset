@@ -3,7 +3,34 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Land
+  - Water
+  - Road
+  - River
+  - Mountain
+  - Forest
+  - Building
+  - Wall
+  - Defense
+  - Recolector
+  - TownHall
+  - Animal
+  - Treasure
+  - Enemy
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  - Player5
+  - Player6
+  - Player7
+  - Player8
+  - Player9
+  - Player10
+  - Beach-1Land
+  - Beach-2Land
+  - Beach-3Land
   layers:
   - Default
   - TransparentFX
