@@ -28,9 +28,7 @@ TagManager:
   - Player8
   - Player9
   - Player10
-  - Beach-1Land
-  - Beach-2Land
-  - Beach-3Land
+  - SpecialTile
   layers:
   - Default
   - TransparentFX

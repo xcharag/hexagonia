@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -244,7 +244,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1054031142
 GameObject:
@@ -275,15 +275,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bcb0f05a99ddfa418d989a63e14a0c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapWidth: 10
-  mapHeight: 10
-  tilePrefab: {fileID: 919132149155446097, guid: 17870990027ef6f4d8e44a768f193d49, type: 3}
+  mapWidth: 100
+  mapHeight: 100
   waterPrefab: {fileID: 919132149155446097, guid: 7bee5c1c453da7e449d9e534e4d87883, type: 3}
-  beachPrefabA: {fileID: 919132149155446097, guid: bf10e955f48b02543805aae11e812596, type: 3}
-  beachPrefabB: {fileID: 919132149155446097, guid: 4795a7ac168bb164698bdbb534ed6103, type: 3}
-  beachPrefabC: {fileID: 919132149155446097, guid: 10dfdf7ae4bb3184db79440e1e102dd2, type: 3}
+  landPrefab: {fileID: 919132149155446097, guid: 17870990027ef6f4d8e44a768f193d49, type: 3}
+  forestPrefab: {fileID: 7428300958797890526, guid: c1505973d7a8c3341a4ab78bf311a28f, type: 3}
+  mountainPrefab: {fileID: 4481362133810301160, guid: c6c94aca0d4510947b13fe0b14bba552, type: 3}
+  mountainForestPrefab: {fileID: 6298875502466699136, guid: 4f86fb3688029d747b2d210380460747, type: 3}
   mapHolder: {fileID: 442093580}
   tileSize: 2.03
+  seed: 22
+  chestPrefab: {fileID: 5417487340884493494, guid: 875abe171f5b74542adae3b401f0dde0, type: 3}
+  archeryZonePrefab: {fileID: 1955176421006224481, guid: 3ffbda3a95f3d9740885c423f48b021c, type: 3}
+  lilyPadPrefab: {fileID: 9080243410797975200, guid: 4cad1a91dc02557428d1bc0014a5fa50, type: 3}
+  podPrefab: {fileID: 4948092790914808151, guid: 12ff4bba23024b84e9ee0282a9a47eb5, type: 3}
+  minDistanceBetweenSameType: 3
+  waterPercentage: 60.6
+  landPercentage: 49.1
+  forestPercentage: 30
+  mountainPercentage: 20
+  mountainForestPercentage: 10
 --- !u!4 &1054031144
 Transform:
   m_ObjectHideFlags: 0
