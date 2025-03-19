@@ -284,14 +284,14 @@ MonoBehaviour:
   mountainForestPrefab: {fileID: 6298875502466699136, guid: 4f86fb3688029d747b2d210380460747, type: 3}
   mapHolder: {fileID: 442093580}
   tileSize: 2.03
-  seed: 22
+  seed: 595882
   chestPrefab: {fileID: 5417487340884493494, guid: 875abe171f5b74542adae3b401f0dde0, type: 3}
   archeryZonePrefab: {fileID: 1955176421006224481, guid: 3ffbda3a95f3d9740885c423f48b021c, type: 3}
   lilyPadPrefab: {fileID: 9080243410797975200, guid: 4cad1a91dc02557428d1bc0014a5fa50, type: 3}
   podPrefab: {fileID: 4948092790914808151, guid: 12ff4bba23024b84e9ee0282a9a47eb5, type: 3}
   minDistanceBetweenSameType: 3
-  waterPercentage: 60.6
-  landPercentage: 49.1
+  waterPercentage: 85.8
+  landPercentage: 11.9
   forestPercentage: 30
   mountainPercentage: 20
   mountainForestPercentage: 10
